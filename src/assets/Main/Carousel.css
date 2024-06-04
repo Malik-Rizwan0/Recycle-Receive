@@ -1,0 +1,29 @@
+.carousel{
+    background-color: #05192D;
+    overflow: hidden;
+    margin: 50px 0px;
+    
+}
+.carousel .row{
+    position: relative;
+    width: 170vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 700 !important;
+    overflow: hidden !important;
+    padding: 20px;
+    color: #FFFFFF;
+    animation: myfirst 10s   1s  infinite  linear;;
+}
+@keyframes myfirst {
+    
+    0%{
+      translate:-50% ;
+    }
+    100%{
+        translate: 0%;
+    }
+    
+}

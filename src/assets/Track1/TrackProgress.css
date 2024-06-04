@@ -1,0 +1,90 @@
+.king{
+    background: #f5f5e0;
+}
+.trackProgress{
+    background-color:  #ffff;
+    width: 50vw;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 0px 50px;
+    margin:50px auto;
+    
+}
+.trackProgress .logo{
+    padding: 50px;
+    margin: auto;
+}
+.trackProgress h4{
+    color: #3DB54C;
+    background-color: #E5F9E8;
+    padding: 10px 50px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.trackProgress .data{
+    padding: 0px 50px;
+}
+.trackProgress .data i{
+    font-style: normal;
+}
+.trackProgress .data .thank{
+    margin: 30px 100px 10px 0px;
+}
+.trackProgress .data .thank p{
+    line-height: 30px;
+}
+
+.Track-progress-card{
+    display: flex;
+    align-items: center;
+    padding: 10px 100px 10px 0px;
+}
+.Track-progress-card .img{
+    width: 150px;
+    /* padding: 40px; */
+}
+.Track-progress-card h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 20px;
+}
+.trackProgress .btn{
+    padding: 7px 30px;
+    background-color: #0A192B;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 50px 121px;
+    border-radius: 20px;
+}
+.track-progress-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.track-progress-footer .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.track-progress-footer .icon .insta{
+    color: #ffff;
+    background-color:#5ce46e;
+    margin: 10px;
+    padding: 5px 7px ;
+    border-radius: 50%;
+}
+.track-progress-footer .icon .fb{
+    background-color: #ffff;
+    color:#5ce46e;
+    margin: 10px;
+    padding: 5px 7px ;
+    border-radius: 50%;
+    font-size: 40px;
+}

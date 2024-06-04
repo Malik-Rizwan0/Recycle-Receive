@@ -1,0 +1,164 @@
+/* *{
+    background-color: #d1cfcf;
+} */
+.satchel1 {
+    padding: 50px 0px;
+
+}
+
+/* .col-span-3 {
+    padding: 50px 50px 0px 0px;
+    margin:10px 0px 30px 50px ;
+    background-color: #ffff !important;
+} */
+.satchel1 .uper-left {
+    padding: 50px 30px 0px 20px;
+    margin: 10px 0px 30px 20px;
+    background-color: #E5F9E8;
+    border-radius: 10px;
+}
+
+.rec1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.satchel1-icon-rec img {
+    width: auto;
+    height: 120px;
+
+}
+
+.satchel1-sony {
+    margin-left: 10px;
+    /* bottom: 50px; */
+    top: 25px;
+    width: 100px;
+    position: relative;
+}
+
+.lower-left {
+    margin: 70px 0px 0px 40px;
+}
+
+dt {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+dd {
+    font-size: 14px;
+}
+
+.satchel1 .section {
+    margin: 50px;
+}
+
+.satchel1 .section h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.satchel1 .section button{
+    position: relative;
+    bottom: 30px ;
+    background-color: #ddd4d4;
+    /* border: 1px solid black; */
+    line-height: 14px;
+    padding: 0px 10px 0px 10px ;
+    border-radius: 40px;
+    outline: none;
+    
+}
+.satchel1 .section button .progress{
+    background-color: #FCB133;
+    width: 10px ;
+    height: 10px;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.Satchel1-imgs img{
+    
+    margin: 50px 50px 50px 0px;
+    height: 100px;
+}
+.Satchel1-imgs img:nth-child(2){
+    position: relative;
+    top: 10px;
+    height: 110px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.Satchel1-imgs img:nth-child(3){
+    opacity: 0.4;
+    cursor: pointer;
+}
+.Satchel1-action{
+    font-size: 16px ;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.Satchel1-form1{
+    border: 1px solid black;
+    width: 600px;
+    color: #05192D;
+    border-radius: 10px;
+    padding: 0px 50px;
+    margin: 20px 0px;
+    /* padding: 10px; */
+}
+.Satchel1-form1 .heading {
+    font-size: 16px ;
+    font-weight: 600;
+    align-items: center;
+    color: #05192D;
+}
+.Satchel1-form1 .num{
+    padding: 1px 9px;
+    
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+    background-color: #92E89D;
+    color: #ffff;
+}
+
+.Satchel1-form1 .btn{
+    text-decoration: underline;
+    font-size: 12px;
+    cursor: pointer;
+}
+.Satchel1-form1 .btn2{
+    display: none;
+    text-decoration: underline;
+    font-size: 12px;
+    cursor: pointer;
+}
+.Satchel1-form1 .num2{
+    padding: 1px 9px;
+    
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+    border: 1px solid #92E89D;
+}
+.Satchel-form1-inner{
+    position: relative;
+    right: 50px;
+    display: none;
+}
+.Satchel-form1-inner input{
+    border: 1px solid rgb(145, 142, 142);
+    width: 90%;
+    font-size: 12px;
+    padding: 10px !important;
+    margin: 6px 0px 6px 50px !important;
+}
+.Satchel-form1-inner .half input{
+    width: 45%;
+}
+.Satchel1-contactus a{
+   border-bottom:  2px solid rgb(129, 127, 127);
+    
+}

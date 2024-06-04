@@ -1,0 +1,93 @@
+.full{
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rec{
+    /* line-height: 80px; */
+    font-size: 70px;
+    position: relative;
+    /* bottom: 50px; */
+
+    line-height: 70px;
+  }
+  .RECYCLE{
+    color: #256145;
+  }
+  .RECEIVE{
+    color: #3DB54C;
+  }
+  .gift{
+    font-size: 35px;
+    font-weight: 700;
+    color: #05192D;
+    position: relative;
+    /* bottom: 170px; */
+    left: 50px;
+    line-height: 40px;
+    padding-right: 150px;
+    
+  }
+  .gift u{
+    /* text-decoration-color: #3DB54C; */
+    text-decoration: none;
+    border-bottom: 3px solid #3DB54C;
+  }
+
+  .outer-form{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 70px;
+    
+  }
+  .form{
+    margin-top: 54px;
+    width: 450px;
+    background-color: #05192D;
+    border-radius: 10px;
+    padding-bottom: 40px;
+  }
+  .full h3{
+    padding:  40px 0px 0px 45px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #FFFFFF;
+    line-height: 52px;
+  }
+  input ,select{
+      margin :6px 0px 6px 45px  !important;
+      padding: 5px !important;
+      border-radius: 5px; 
+      width: 350px ;
+      outline: none;
+      font-size: 13px;
+    }
+    input::placeholder{
+      font-size: 13px;
+    }
+    input[type=checkbox]{
+      width:20px !important ;
+  }
+  
+  .condition{
+    margin: 40px 0px ;
+  }
+  .condition label{
+    color: #FFFFFF;
+    font-size: 11px ;
+  }
+  input[type=submit]{
+    position: relative;
+    
+    padding: 10px 30px   !important;
+    border-radius: 30px;
+    width: auto;
+    background: #7cf18c;
+    left: 200px;
+    margin-bottom: 20px;
+  }

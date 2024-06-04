@@ -1,0 +1,32 @@
+footer{
+    background: #0A192B;
+    color: #ffff;
+    padding: 100px 0px 40px 0px;
+}
+footer .img{
+    display: flex;
+    justify-content: end;
+}
+footer img{
+    
+    height: auto;
+    width: 35vw !important;
+    object-position: center;   
+    /* border-radius: 50%; */
+}
+footer .Question {
+    padding: 0px 150px 0px  50px;
+}
+footer .Question h4{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 50px;
+
+}
+footer .Question p{
+    font-size: 20px;
+    font-weight:400  ;
+    border-bottom: 1px solid #ffff;
+    padding-bottom: 8px ;
+    margin-bottom: 20px;
+}
