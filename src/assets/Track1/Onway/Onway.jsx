@@ -17,6 +17,26 @@ function Onway() {
                 <div className="parcelBag">
                     <img src={ParcelBag} alt="" className="m-auto " />
                 </div>
+                <div className="Onway-data">
+                    <p>Hi Sir,</p>
+                    <p>Your satchel has been dispatched and will arrive at the following address:</p>
+                    <p><b>123 Street Name Sydney NSW Australia</b></p>
+                    <p>if you don’t receive your satchel within 7 days, please contact customer service.</p>
+                    <p>
+                        <b>Email:</b> malikrizwan1076@gmail.com
+                        <br />
+                        <b>Phone:</b> +92 3249422392
+                    </p>
+                    <p>Please note that you have 45 days from the Sony purchase that unlocked this offer to complete your trade-in.</p>
+                    <button className='btn'>Track Progress</button>
+                </div>
+                <div className="track-progress-footer">
+                    <div className="icon">
+                        <FontAwesomeIcon icon="fa-brands fa-instagram" className='insta' />
+                        <FontAwesomeIcon icon="fa-brands fa-facebook" className='fb' />
+                    </div>
+                    <a href="#">www.ecoactiv.com.au</a>
+                </div>
             </div>
         </>
     )
