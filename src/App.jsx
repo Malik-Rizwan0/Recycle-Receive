@@ -13,27 +13,27 @@ import Scorecard from './assets/Track1/ScoreCard/Scorecard'
 
 // import TrackProgress from './assets/Track1/TrackProgress'
 function App() {
-  // const router = createBrowserRouter([
-    //   {
-      //     path: '/',
-      //     element: <>
-      //       <Startup />
-      //       <Carousel />
-      //       <Work />
-      //       <Introducing />
-      //       <Grow />
-      //       <Footer />
-      //     </>
-      //   },
-      //   {
-        //     path: '/trackprogress',
-        //     element: <TrackProgress />
-  //   },
-  //   {
-  //     path: '/Satchel1',
-  //     element: <Satchel1 />
-  //   }
-  // ])
+  const router = createBrowserRouter([
+      {
+          path: '/',
+          element: <>
+            <Startup />
+            <Carousel />
+            <Work />
+            <Introducing />
+            <Grow />
+            <Footer />
+          </>
+        },
+        {
+            path: '/trackprogress',
+            element: <TrackProgress />
+    },
+    {
+      path: '/Satchel1',
+      element: <Satchel1 />
+    }
+  ])
   return (
     <>
       {/* <Startup/>
@@ -44,10 +44,10 @@ function App() {
     <Footer/> */}
       {/* <TrackProgress/> */}
       {/* <Satchel1/> */}
-      <Onway />
+      {/* <Onway /> */}
     {/* <Scorecard/> */}
 
-      {/* <RouterProvider router={router}/> */}
+      <RouterProvider router={router}/>
 
 
     </>
