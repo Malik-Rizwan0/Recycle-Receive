@@ -10,42 +10,46 @@ import Satchel1 from './assets/Track2/Satchel1'
 import Onway from './assets/Track1/Onway/Onway'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Scorecard from './assets/Track1/ScoreCard/Scorecard'
+import Issued from './assets/Track1/Issued/Issued'
+import Unlock from './assets/Track1/Unlock/Unlock'
 
 // import TrackProgress from './assets/Track1/TrackProgress'
 function App() {
   const router = createBrowserRouter([
-      {
-          path: '/',
-          element: <>
-            <Startup />
-            <Carousel />
-            <Work />
-            <Introducing />
-            <Grow />
-            <Footer />
-          </>
-        },
         {
-            path: '/trackprogress',
-            element: <TrackProgress />
-    },
-    {
-      path: '/Satchel1',
-      element: <Satchel1 />
-    }
-  ])
-  return (
-    <>
+              path: '/',
+              element: <>
+                <Startup />
+                <Carousel />
+                <Work />
+                <Introducing />
+                <Grow />
+                <Footer />
+              </>
+            },
+            {
+                  path: '/trackprogress',
+                  element: <TrackProgress />
+          },
+          {
+              path: '/Satchel1',
+              element: <Satchel1 />
+            }
+          ])
+          return (
+            <>
       {/* <Startup/>
     <Carousel/>
     <Work/>
     <Introducing/>
     <Grow/>
-    <Footer/> */}
+  <Footer/> */}
       {/* <TrackProgress/> */}
       {/* <Satchel1/> */}
       {/* <Onway /> */}
     {/* <Scorecard/> */}
+      {/* <Issued/> */}
+  {/* <Unlock/> */}
 
       <RouterProvider router={router}/>
 

@@ -1,0 +1,47 @@
+.Unlock{
+    width: 50vw;
+    margin:50px auto;
+    /* border: 2px solid black; */
+
+}
+.Unlock .ecoactiv-logo{
+    margin: 50px auto;
+}
+.Unlock h2{
+    background-color: #3DB54C;
+    padding: 15px;
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.Unlock .parcelBag img{
+    position: relative;
+    bottom: 50px;
+}
+.Unlock .parcelBag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 260px !important;
+    background-color: #EDFBEE;
+}
+.Unlock-data{
+    padding:30px 130px ;
+}
+.Unlock-data p{
+    margin: 20px 0px;
+}
+.Unlock-data h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.Unlock .btn{
+    background-color: #0A192B;
+    color: #ffff;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
