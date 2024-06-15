@@ -1,0 +1,100 @@
+.Welcome h2{
+    text-align: center;
+    background-color: #3DB54C;
+    padding:15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffff;
+}
+.welcome-data{
+    margin: auto;
+    width: 80vw;
+}
+.Welcome .Welcome-links div{
+    margin: 0px 10px;
+}
+.Welcome .Welcome-links .icon {
+    padding:0px 5px ;
+    font-size: 24px;
+}
+.Welcome .Welcome-Cards{
+
+}
+.Welcome .Welcome-Cards img{
+    width: 20vw !important;
+}
+.Welcome .Welcome-Cards .card{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 10px;
+}
+.Welcome .Welcome-Cards h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.Welcome .Welcome-Cards p{
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.Welcome .Welcome-Cards .color1{
+    background-color: #95BCF6;
+    width: 10px;
+    height: 10px;
+}
+.Welcome .Welcome-Cards .color2{
+    background-color: #3DB54C;
+    width: 10px;
+    height: 10px;
+}
+.Welcome .Welcome-Cards .color3{
+    background-color: #9D59E2;
+    width: 10px;
+    height: 10px;
+}
+.Welcome .Welcome-Cards .color4{
+    background-color: #F1B44F;
+    width: 10px;
+    height: 10px;
+}   
+    
+
+.Welcome .Welcome-Cards .color5{
+    background-color: #A6E6A4;
+    width: 10px;
+    height: 10px;
+
+}
+.Welcome .Welcome-Cards .color6{
+    background-color: #F4F3F1;
+    width: 10px;
+    height: 10px;
+}
+.Welcome-Cards p .data{
+    margin: 0px 10px;
+}
+.lowerCards .card-header h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.lowerCards .card-header h5{
+    font-size: 30px;
+    line-height: 20px;
+}
+.lowerCards p .faArrow{
+    background-color: #e6dfdf;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+.lowerCards h4{
+    font-size: 28px;
+    font-weight: bold;
+}
+.lowerCards .card  .img-headPhone{
+    width: 28%;
+    border-radius: 10px;
+    margin: 10px !important;
+}

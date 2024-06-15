@@ -32,7 +32,7 @@
     font-weight: 700;
     display: flex;
     /* justify-content: space-evenly; */
-    align-items: center;
+    align-items: start;
     margin: 10px 0px;
 }
 .Work .cardheading .num{
@@ -41,6 +41,13 @@
     color: #fff;
     margin: 0px 10px;
     border-radius: 50% ;
+}
+.Work .cardheading h3{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.Work .cardheading h3::first-line{
+    visibility: visible;
 }
 .Work .card p{
     font-size: 16px;

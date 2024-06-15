@@ -1,4 +1,627 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+.r-width {
+
+    width: 674px;
+    padding: 0px 50px;
+}
+.r-width-data{
+    padding: 30px 23%;
+}
+
+@media only screen and (max-width: 1200px) and (min-width:1024px) {
+    .rec {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .gift {
+        font-size: 25px;
+        left: 25px;
+    }
+
+    .outer-form {
+        right: 30px;
+    }
+
+    .form {
+        padding-bottom: 20px;
+    }
+
+    .full h3 {
+        padding-top: 20px !important;
+    }
+
+    .condition {
+        margin: 14px 0px;
+    }
+
+    .carousel .row {
+        font-size: 12px;
+    }
+
+    .Work .cardheading h3 {
+        font-size: 13px !important;
+    }
+
+    .Work .card p {
+        font-size: 12px;
+    }
+
+    .intro-left {
+        padding-right: 114px;
+
+    }
+
+    .blue {
+        margin: 50px 32px;
+        padding: 118px 128px;
+    }
+
+    .intro2-left {
+        padding-right: 65px;
+        padding-left: 40px;
+    }
+
+    footer img {
+        width: 45vw;
+    }
+
+    footer .Question {
+        padding: 0px 45px 0px 35px;
+    }
+
+    footer {
+        padding-top: 65px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:768px) {
+    .rec {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .left .icon img {
+        width: 50% !important;
+    }
+
+    .gift {
+        font-size: 20px;
+        left: 20px;
+        line-height: 25px;
+        padding-right: 70px;
+    }
+
+    .outer-form {
+        right: 20px;
+    }
+
+    .form {
+        margin-top: 25px;
+        width: 375px;
+        padding-bottom: 20px;
+    }
+
+    .form h3 {
+        padding: 10px 0px 0px 25px !important;
+    }
+
+    .form input,
+    select {
+        margin: 3px 0px 6px 20px !important;
+        width: 320px;
+    }
+
+    .form .condition {
+        margin: 20px 0px;
+    }
+
+    .form input[type=submit] {
+        margin: 0px !important;
+        padding: 10px 30px !important;
+        border-radius: 30px;
+        width: auto;
+    }
+
+    .carousel .row {
+        font-size: 10px;
+    }
+
+    .Work .cardheading h3 {
+        font-size: 13px !important;
+    }
+
+    .Work .card p {
+        font-size: 12px;
+    }
+
+    .introducing {
+        margin-top: 30px;
+    }
+
+    .intro-left {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .intro-left h4,
+    .intro2-left h4 {
+        font-size: 25px !important;
+        line-height: 30px;
+        margin-bottom: 15px !important;
+
+    }
+
+    .intro-left p {
+        margin-bottom: 20px;
+    }
+
+    .blue {
+        margin: 44px 0px;
+        padding: 100px 32px;
+    }
+
+    .intro2-left {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 35px;
+        padding-left: 20px;
+    }
+
+    .blue2 {
+        padding: 80px 10px;
+    }
+
+    .Grow .cards {
+        margin-top: 50px;
+    }
+
+    .Grow .card {
+        margin-top: 0px;
+    }
+
+    footer img {
+        display: none;
+    }
+
+    footer .Question {
+        padding: 0px 45px 0px 35px;
+    }
+
+    footer {
+        padding-top: 65px;
+    }
+
+    /* .
+    .
+    .
+    .
+    .
+    . */
+    .satchel1 {
+        padding: 20px 0px;
+
+    }
+
+    .satchel1 .uper-left {
+        margin: 10px 0px 30px 10px;
+    }
+
+    .rec1 {
+        font-size: 30px !important;
+        line-height: 28px;
+    }
+
+    .satchel1-icon-rec img {
+        height: 80px;
+    }
+
+    .satchel1-sony {
+        width: 70px;
+    }
+
+    .lower-left {
+        margin: 50px 0px 0px 20px;
+    }
+
+    dd {
+        font-size: 12px;
+    }
+
+    dt {
+        font-size: 14px;
+    }
+
+    .satchel1 .section {
+        margin: 20px;
+    }
+
+    .satchel1 .section h2 {
+        font-size: 20px;
+    }
+
+    .satchel1 .section button {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .satchel1 .section .heading p {
+        font-size: 12px !important;
+    }
+
+    .Satchel1-imgs img {
+        height: 70px;
+        margin: 30px 30px 30px 0px;
+    }
+
+    .Satchel1-imgs img:nth-child(2) {
+        height: 80px;
+    }
+
+    .Satchel1-form1 {
+        max-width: 450px;
+        min-width: 400px;
+    }
+
+    .Satchel-form1-inner input {
+
+
+        width: 100% !important;
+        padding: 10px !important;
+
+    }
+
+    .Satchel-form1-inner .half {
+        width: 100%;
+        margin: 6px 0px 6px 50px;
+        justify-content: space-between !important;
+    }
+
+    .Satchel-form1-inner .half input {
+        width: 45% !important;
+        margin: 0px !important;
+    }
+    /* .
+    .
+    .
+    .
+    .
+     */
+     .Welcome .Welcome-Cards .card h3{
+        font-size: 20px;
+}
+}
+@media only screen and (max-width: 767px) {
+
+    .full {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left {
+        display: flex !important;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .rec {
+        font-size: 40px;
+        line-height: 35px;
+    }
+
+    .left .icon img {
+        width: 70% !important;
+    }
+
+    .gift {
+        font-size: 20px;
+        padding: 10px 40px;
+        /* margin: 20px; */
+        left: 0px;
+    }
+
+    .outer-form {
+        width: 90vw !important;
+        /* margin: 5vw !important; */
+        right: 0%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        justify-content: center;
+        margin: auto !important;
+    }
+
+    .full .form h3 {
+        padding: 20px 0px 0px 20px !important;
+    }
+
+    .full .form input,
+    select {
+        max-width: 75vw;
+        min-width: 50vw;
+        margin: 6px 0px 6px 20px !important;
+    }
+
+    .full .form input[type=submit] {
+        text-align: end;
+        left: 0 !important;
+        max-width: 155px !important;
+        min-width: 155px !important;
+
+    }
+
+    .condition {
+        margin-left: 5px;
+        font-size: 8px !important;
+    }
+
+    .full .form input[type=checkbox] {
+        margin-right: 10px !important;
+        max-width: 10px !important;
+        min-width: 10px !important;
+    }
+
+    .carousel {
+        padding: 1px;
+        margin: 30px 0px 0px 0px !important;
+    }
+
+    .carousel .row {
+        min-width: 470vw;
+        max-width: 170vw;
+        font-size: 12px;
+    }
+
+    .Work {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: rgb(248, 248, 244);
+    }
+
+    .Work .cards {
+        margin: 50px 10vw;
+    }
+
+    .Work .card {
+        margin: 20px 0px;
+        background: #ffff;
+    }
+
+    .Work .card .cardheading {
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .Work .card p {
+        font-size: 14px;
+    }
+
+    .introducing {
+        /* display: none; */
+        margin-top: 0px;
+    }
+
+    .introducing .sky {
+        width: 100vw;
+
+    }
+
+    .introducing .blue,
+    .introducing2 .blue2 {
+        margin: 30px auto !important;
+        text-align: center;
+        height: 60vw;
+        max-width: 90vw;
+        min-width: 70vw;
+        padding: 0px;
+    }
+
+    .intro-left,
+    .intro2-left {
+        /* display: none; */
+        padding: 10px 10vw;
+        font-size: 16px;
+    }
+
+    .introducing .intro-left h4,
+    .intro2-left h4 {
+        font-size: 20px !important;
+        line-height: 25px;
+    }
+
+    .introducing2 {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .introducing2 .blue2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto !important;
+        /* text-align: center;
+        min-width: 100vw !important;
+        max-width: 70vw !important;
+        padding: 0%;
+        height: 100vw; */
+    }
+
+    .Grow {
+        padding: 5vw !important;
+    }
+
+    .Grow h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .Grow p {
+        max-width: 70vw !important;
+        min-width: 80vw;
+    }
+
+    .Grow .cards .card {
+        margin-top: 20px;
+        max-width: 90vw;
+        min-width: 60vw;
+    }
+
+    footer {
+        padding: 5vw 0px !important;
+    }
+
+    footer .img {
+        display: none;
+    }
+
+    footer .Question {
+        padding: 0px 5vw 0px 5vw;
+    }
+
+    footer h4 {
+        font-size: 25px !important;
+        padding-bottom: 3vw !important;
+    }
+
+    footer .Question p {
+        font-size: 12px !important;
+    }
+
+    /* .
+    .
+    .
+    .
+    .
+     */
+    .satchel1 {
+        padding: 0px;
+
+    }
+
+    .satchel1 .uper-left {
+        justify-content: center;
+        margin: 10px 0px 30px 10px;
+    }
+
+    .rec1 {
+        font-size: 30px !important;
+        line-height: 28px;
+    }
+
+    .satchel1-icon-rec img {
+        height: 80px;
+    }
+
+    .satchel1-sony {
+        width: 70px;
+    }
+
+    .lower-left {
+        margin: 30px 0px 0px 20px;
+    }
+
+    dd {
+        font-size: 12px;
+    }
+
+    dt {
+        font-size: 14px;
+    }
+
+    .satchel1 .section {
+        margin: 20px;
+    }
+
+    .satchel1 .section h2 {
+        font-size: 16px;
+    }
+
+    .satchel1 .section .btn-status {
+        font-size: 12px;
+        padding: 10px;
+        display: none;
+    }
+
+    .satchel1 .section .heading p {
+        font-size: 12px !important;
+    }
+
+    .Satchel1-imgs img {
+        height: 50px;
+        margin: 25px 25px 25px 0px;
+    }
+
+    .Satchel1-imgs img:nth-child(2) {
+        height: 60px;
+    }
+
+    .Satchel1-form1 {
+        width: 90vw;
+        padding: 0px 10px;
+    }
+    .satchel1 .section .heading p {
+        font-size: 10px !important;
+    }
+
+    .Satchel-form1-inner input {
+        padding: 10px !important;
+        width: 100%;
+    }
+
+    .Satchel-form1-inner .half {
+        justify-content: space-between !important;
+    }
+
+    .Satchel-form1-inner .half input {
+        width: 100% !important;
+
+        margin: 6px 0px 6px 50px;
+
+    }
+    .Satchel1-form1 .num2 , .Satchel1-form1 .num{
+        right: 5px;
+        padding: 1px 7px;
+    }
+    /* .
+    .
+    .
+    .
+    .
+     */
+     .Welcome h2{
+        font-size: 18px;
+     }
+     .Welcome .welcome-data{
+        width: 90vw !important;
+        margin: auto;
+     }
+     .Welcome .Welcome-links .icon {
+        padding: 0px 3px;
+        font-size: 20px;
+    }
+    .Welcome .Welcome-Cards .card{
+        margin: auto;
+        }
+        .Welcome .lowerCards .card{
+            padding: 5px !important;
+            margin: 10px auto;
+            border-radius: 10px;
+        background-color: rgb(243, 243, 240);
+
+    }
+    .Welcome .Welcome-Cards .card img{
+        width:300px !important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .btns button{
+        font-size: 9px !important;
+        padding: 3px 0px !important;
+        width: 75px;
+    } 
+}

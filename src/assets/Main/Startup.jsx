@@ -11,8 +11,8 @@ library.add(faHeadphonesSimple, faArrowsRotate, faTriangleExclamation);
 function Startup() {
   return (
     <>
-      <div className=" grid grid-cols-2 full">
-        <div className="">
+      <div className=" grid sm:grid-cols-1 md:grid-cols-2  full">
+        <div className="sm:flex sm:justify-center sm:flex-col">
           <div className="grid grid-cols-2 left">
             <div className=' text-right rec'>
               <div className='RECYCLE'> RECYCLE.</div>
@@ -22,11 +22,11 @@ function Startup() {
               <img src={Icon} alt="" />
             </div>
           </div>
-          <div className="gift">
+          <div className="gift ">
             Trade in your old headphones to <u>unlock an $80 gift card.</u>
           </div>
         </div>
-        <div className="outer-form text-right">
+        <div className="outer-form text-center sm:text-center md:text-right">
           <form className='form text-start'>
             <h3>Start your trade-in</h3>
             <input type="text" placeholder='Enter full name' required />
@@ -51,7 +51,7 @@ function Startup() {
                 <label htmlFor="email">I want to stay up to date on offers and receive promtional emails</label>
               </div>
             </div>
-            <NavLink to='/trackprogress'><input type="submit" value="Start Trade-in" /></NavLink>
+            <NavLink to='/trackprogress'><input type="submit" value="See More" /></NavLink>
             
           </form>
         </div>

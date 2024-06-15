@@ -1,11 +1,11 @@
 import React, { useRef } from 'react'
-
 import headphone from '../Main/Group 9948.png'
 import './Satchel1.css'
 import Sony from "./Group 8759.png"
 import Way from './Group 10158.png'
 import Receive from './Group 9200.png'
 import Gift from './Group 9199.png'
+import { NavLink } from 'react-router-dom'
 
 function Satchel1() {
   const innerForm = useRef()
@@ -16,9 +16,9 @@ function Satchel1() {
   const num2 = useRef()
   return (
     <>
-      <div className="container satchel1 ">
-        <div className="grid grid-cols-12 gap-3">
-          <div className=" col-span-4">
+      <div className=" satchel1 ">
+        <div className="grid grid-cols-12 data gap-3">
+          <div className=" col-span-12 sm:flex md:block md:col-span-4 ">
             <div className="uper-left">
               <div className="flex justify-end items-center">
                 <div className=' rec1 '>
@@ -40,24 +40,25 @@ function Satchel1() {
                 <dd>Ecoactiv have partnered with Sony to offer Sony customers the ability to recycle their old or unwanted headphones and receive an $80 gift card.</dd>
                 <dt>Eligibility</dt>
                 <dd>Only available to Sony customers who have made a recent headphone purchase. Only Apple, Bose, Panasonic and Sony branded headphones are accepted for recycling as part of the program. </dd>
-                <br />
+                <br className='hidden lg:block' />
                 <dt><u>Term & Condition</u></dt>
-                <br />
+                <br className='hidden lg:block' />
                 <dd> <b>Offer Expiry Date:</b> 45 days from the Sony purchase that unlocked this offer.</dd>
               </dl>
             </div>
           </div>
-          <div className="col-span-8 section">
-            <div className="flex justify-between ">
+          <div className="col-span-12 md:col-span-8 section">
+            <div className="flex justify-between items-center ">
               <div className="heading">
                 <h2>Recycle your old headphones & receive $80</h2>
                 <p>Track your progress below. Have a question? Contact us <u><a href="https://wa.me/+923249422392?text= I have seen your website, and I need some help related to web development." >here</a></u>.</p>
               </div>
-              <button type="button" className='btn flex items-center justify-between'>STATUS: IN PROGRESS <div className="progress"></div></button>
+              <button type="button" className='btn btn-status flex items-center justify-between'>STATUS: IN PROGRESS <div className="progress"></div></button>
             </div>
             <div className="Satchel1-imgs flex items-end">
               <img src={Way} alt=" Satchel " />
-              <img ref={receive} onClick={() => { receive.current.style.opacity = '1'; num2.current.style.backgroundColor= '#92E89D'; num2.current.style.color= '#ffff'
+              <img ref={receive} onClick={() => {
+                receive.current.style.opacity = '1'; num2.current.style.backgroundColor = '#92E89D'; num2.current.style.color = '#ffff'
 
               }} src={Receive} alt="HeadPhone" />
               <img ref={gift} onClick={() => {
@@ -65,7 +66,7 @@ function Satchel1() {
                   gift.current.style.opacity = '1';
                 }
                 else {
-                    alert ("Please Enter Your Details")
+                  alert("Please Enter Your Details")
                 }
               }} src={Gift} alt="Gift" />
             </div>
@@ -75,7 +76,7 @@ function Satchel1() {
             </h4>
             <div className="Satchel1-form1">
               <div className="heading p-2 flex justify-between">
-                <p className='flex'>
+                <p className='flex items-start'>
                   <div className="num">1</div>
                   <p>Enter your details to claim the offer</p>
                 </p>
@@ -84,26 +85,46 @@ function Satchel1() {
               </div>
               <div ref={innerForm} className="Satchel-form1-inner">
                 <input type="text" placeholder='Enter your full name' />
-                <div className="half flex justify-center">
+                <div className="half flex flex-col justify-between md:flex-row">
                   <input className='half' type="text" placeholder='Enter your phone' />
                   <input className='half' type="text" placeholder='Enter your mail' />
                 </div>
                 <input type="text" placeholder='Enter your Address' />
+                
               </div>
             </div>
             <div className="Satchel1-form1">
               <div className="heading p-2 flex justify-between">
-                <p className='flex'>
+                <p className='flex items-start'>
                   <div className="num2" ref={num2}>2</div>
                   <p>Fill and post back your satchel with your headphones inside</p>
                 </p>
               </div>
             </div>
+            <div className='btns'>
+                  <b>See the result in differnt condition:- </b>
+                  <div className=" m-auto">
+                    <div className="flex justify-between">
+
+                      <NavLink to='/Satchel1/track_onway'><button>Onway</button></NavLink>
+                      <NavLink to='/Satchel1/Scorecard'><button>In Progress</button></NavLink>
+                      <NavLink to='/Satchel1/Scorecard_result'><button>Result</button></NavLink>
+                    </div>
+                    <div className="flex justify-between">
+
+                      <NavLink to='/Satchel1/gift'><button>Gift Issued</button></NavLink>
+                      <NavLink to='/Satchel1/unlock'><button>Discount Code</button></NavLink>
+                      <NavLink to='/Satchel1/receving_fail'><button>Nill Account</button></NavLink>
+                    </div>
+                  </div>
+                  <br />
+                </div>
           </div>
         </div>
-        <div className="flex justify-end Satchel1-contactus">
-              
-              <a href="https://wa.me/+923249422392">Contact support</a>
+        
+        <div className="flex justify-end px-8 Satchel1-contactus">
+
+          <a href="https://wa.me/+923249422392">Contact support</a>
         </div>
       </div>
     </>

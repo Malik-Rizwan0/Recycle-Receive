@@ -75,11 +75,12 @@
   }
   
   .condition{
-    margin: 40px 0px ;
+    margin: 40px 0px  ;
+    /* text-align: center; */
   }
   .condition label{
     color: #FFFFFF;
-    font-size: 11px ;
+    font-size: 10px ;
   }
   input[type=submit]{
     position: relative;
@@ -90,4 +91,6 @@
     background: #7cf18c;
     left: 200px;
     margin-bottom: 20px;
+    cursor: pointer;
   }
+ 

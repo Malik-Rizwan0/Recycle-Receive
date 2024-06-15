@@ -15,7 +15,10 @@ footer img{
     /* border-radius: 50%; */
 }
 footer .Question {
-    padding: 0px 150px 0px  50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 126px 0px 50px;
 }
 footer .Question h4{
     font-size: 30px;

@@ -16,7 +16,7 @@ function Grow() {
                 <p className='p'>
                     As your pre-loved headphones enter the circular economy, you will receive insights through your Sustainability Scorecard through the Ecoactiv Circular Economy Hub.
                 </p>
-                <div className="grid gap-8 grid-cols-3 text-center">
+                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 text-center cards">
                     <div className="card">
                         <div className="head">
                             <div className="Icon icon1 ">
@@ -42,7 +42,7 @@ function Grow() {
                             Everytime you can recycle
                         </p>
                     </div>
-                    <div className="card">
+                    <div className="card md:col-span-2 lg:col-span-1">
                         <div className="head">
                             <div className="Icon">
                                 <div className="icon3">

@@ -7,13 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Unlock() {
     return (
         <>
-            <div className="Unlock">
+            <div className="Unlock r-width">
                 <img className='ecoactiv-logo' src={Ecoactiv} alt="Ecoactiv" />
                 <h2>Your satchel is on its way <FontAwesomeIcon icon="fa-solid fa-truck" flip="horizontal" style={{ color: "#ffffff", }} /></h2>
                 <div className="parcelBag">
                     <img src={ParcelBag} alt="" className="m-auto " />
                 </div>
-                <div className="Unlock-data">
+                <div className="Unlock-data r-width-data">
                     <p>Hi Sir,</p>
                     <p>Thank you for recycling your headphones with Ecoactiv and helping reduce landfill waste. </p>
                     <p><b>You’ve unlocked a discount code.</b></p>

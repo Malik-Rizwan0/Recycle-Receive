@@ -6,10 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Issued() {
     return (
         <>
-            <div className="Issued">
+            <div className="Issued r-width">
                 <img className='ecoactiv-logo' src={Ecoactiv} alt="Ecoactiv" />
                 <h2>Your gift has been Issued </h2>
-                <div className="Issued-data">
+                <div className="Issued-data r-width-data">
                     <p>Hi Sir,</p>
                     <p>Your gift card as part of participating in the Sony RECYCLE. RECEIVE. Program is here!</p>
                     <p><b>Here’s how to activate it:</b></p>

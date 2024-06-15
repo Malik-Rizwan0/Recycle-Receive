@@ -8,7 +8,7 @@ import Img3 from './Group 10086.png'
 function Scorecard() {
   return (
     <div>
-      <div className="ScoreCard">
+      <div className="ScoreCard r-width">
         <img className='ecoactiv-logo' src={Ecoactiv} alt="Ecoactiv" />
         <h2>Your Sustainability Scorecard </h2>
         <div className="ScoreCard-cards flex justify-evenly items-center ">
@@ -26,7 +26,7 @@ function Scorecard() {
             <p>aluminium recovered </p>
           </div>
         </div>
-        <div className="ScoreCard-data">
+        <div className="ScoreCard-data r-width-data">
           <p>Hi Sir,</p>
           <p>We’ve received your headphones for recycling!</p>
           <p>

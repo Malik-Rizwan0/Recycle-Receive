@@ -9,7 +9,7 @@ import './Introducing.css'
 function Introducing() {
     return (
         <>
-            <div className="grid grid-cols-2 introducing">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 introducing">
                 <div className="sky">
                     <div className="blue">
                         PLACEHOLDER FOR IMPACT DASHBOARD
@@ -24,7 +24,7 @@ function Introducing() {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 introducing2">
                 <div className="intro2-left">
                     <h4>
                         Recycle with confidence.

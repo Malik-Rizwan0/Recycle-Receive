@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <>
-            <footer className='grid grid-cols-2'>
+            <footer className='grid md:grid-cols-1 lg:grid-cols-2 '>
                 <div className='img'>
                     <img src={footerImage} alt="Footer" />
                 </div>

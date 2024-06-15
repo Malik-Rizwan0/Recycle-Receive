@@ -13,7 +13,7 @@ function Work() {
         <h4>
            Here's how it works
         </h4>
-        <div className=" grid grid-cols-4 cards">
+        <div className=" grid md:grid-cols-2 lg:grid-cols-4 cards">
             <div className="card">
                 <div className="cardHead">
                 <FontAwesomeIcon icon="fa-solid fa-rectangle-list" className='fa-solid'/>

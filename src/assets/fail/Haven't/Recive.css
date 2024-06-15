@@ -1,0 +1,25 @@
+.Recive{
+    /* width: 50vw; */
+    margin: auto;
+    
+}
+.Recive img{
+    margin:50px auto;   
+}
+.Recive-data{
+    padding:0px 135px ;
+}
+.Recive-data p{
+    margin: 20px 0px;
+}
+.Recive-data .btn{
+    background-color: #0A192B;
+    color: #ffff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.Recive .track-progress-footer{
+    padding-top: 30px;
+}

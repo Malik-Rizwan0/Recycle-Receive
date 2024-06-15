@@ -11,13 +11,13 @@ library.add(faTruck);
 function Onway() {
     return (
         <>
-            <div className="Onway">
+            <div className="Onway  r-width">
                 <img className='ecoactiv-logo' src={Ecoactiv} alt="Ecoactiv" />
                 <h2>Your satchel is on its way <FontAwesomeIcon icon="fa-solid fa-truck" flip="horizontal" style={{ color: "#ffffff", }} /></h2>
                 <div className="parcelBag">
                     <img src={ParcelBag} alt="" className="m-auto " />
                 </div>
-                <div className="Onway-data">
+                <div className="Onway-data r-width-data">
                     <p>Hi Sir,</p>
                     <p>Your satchel has been dispatched and will arrive at the following address:</p>
                     <p><b>123 Street Name Sydney NSW Australia</b></p>

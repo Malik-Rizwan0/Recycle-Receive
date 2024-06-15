@@ -1,5 +1,5 @@
 .Issued{
-    width: 50vw;
+    /* width: 50vw; */
     margin:50px auto;
     /* border: 2px solid black; */
 
@@ -17,7 +17,9 @@
 
 }
 .Issued-data{
-    padding:30px 150px 50px 150px;
+    /* padding-top: 30px;
+    padding-bottom: 50px; */
+    /* padding:30px 150px 50px 150px; */
     color: #FF0000;
 }
 .Issued-data p{

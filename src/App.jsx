@@ -12,7 +12,9 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Scorecard from './assets/Track1/ScoreCard/Scorecard'
 import Issued from './assets/Track1/Issued/Issued'
 import Unlock from './assets/Track1/Unlock/Unlock'
-
+import Welcome from './assets/Track1/Welcome/Welcome'
+import Recive from './assets/fail/Haven\'t/Recive'
+import DaysAgo from './assets/fail/20DayAgo/DaysAgo'
 // import TrackProgress from './assets/Track1/TrackProgress'
 function App() {
   const router = createBrowserRouter([
@@ -34,22 +36,55 @@ function App() {
           {
               path: '/Satchel1',
               element: <Satchel1 />
+            },
+            {
+              path: '/Satchel1/track_onway',
+              element: <Onway/>
+              },
+                {
+                  path: '/Satchel1/Scorecard',
+                  element: <Scorecard />
+                },
+                {
+                  path: '/Satchel1/Scorecard_result',
+                  element: <Welcome/>
+                },
+                {
+                  path: '/Satchel1/gift',
+                  element: <Issued/>
+                },
+              {
+                path: '/Satchel1/unlock',
+              element: <Unlock/>
+              },
+            {
+              path: '/Satchel1/receving_fail',
+              element: <Recive/>
+            },
+            {
+              path: '/Satchel1/trading',
+              element: <DaysAgo/>
             }
+            
           ])
-          return (
-            <>
+  return (
+    <>
       {/* <Startup/>
     <Carousel/>
     <Work/>
     <Introducing/>
     <Grow/>
   <Footer/> */}
-      {/* <TrackProgress/> */}
+      {/* <TrackProgress /> */}
       {/* <Satchel1/> */}
-      {/* <Onway /> */}
-    {/* <Scorecard/> */}
-      {/* <Issued/> */}
-  {/* <Unlock/> */}
+      {/* <Onway />
+      <Scorecard />
+      <Issued />
+      <Unlock />
+      <Recive />
+      <Welcome />
+
+      <DaysAgo />  */}
 
       <RouterProvider router={router}/>
 
